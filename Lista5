@@ -1,0 +1,10 @@
+lista = ['1', 'dois', '3', 'quatro', '5', 'seis', '7']
+lista.reverse()
+print(lista)
+lista.reverse()
+print(lista)
+print()
+lista.sort()  # deixa a lista em ordem ascendente.
+print(lista)
+lista.sort(reverse=True)
+print(lista)
