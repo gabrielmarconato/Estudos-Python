@@ -1,0 +1,10 @@
+print("Você gosta de cães?")
+ação = int(input("digite '1' para sim e digite '2' para não: "))
+
+if (ação==1):
+    print ("você gosta de cães. =D ")
+
+elif(ação==2):
+    print("você não gosta de cães. ='( ")
+else:
+    print ("só há opções '1' e '2', por favor execute o programa novamente, MULA.")
