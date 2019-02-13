@@ -1,0 +1,7 @@
+def potencia(x):
+    quadrado = x**2
+    cubo = x**3
+    return quadrado, cubo
+
+a, b = potencia(3)
+print(a, b)
