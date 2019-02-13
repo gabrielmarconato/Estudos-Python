@@ -1,0 +1,15 @@
+print("soma:")
+
+print(100+100)
+print(100+(500+500))
+
+print("divisão:")
+
+print(10/6)
+print(10//6)  # o uso do "//" apenas tira as casas decimais (não arredonda).
+
+print("resto da divisão:")
+
+print(3%2)  # o "%" neste caso vai indicar o resto da divisão de 3 por 2.
+print(4%2)
+print(10%7)
