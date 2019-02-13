@@ -1,0 +1,4 @@
+lista = "Seja Bem-Vindo"
+print(lista[5:])
+print(lista[:5])
+print(lista[1:6:1]) # lista[x : y : z] (x= começo) (y = fim) (z = passo)
