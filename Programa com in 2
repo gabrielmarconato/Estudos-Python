@@ -1,0 +1,12 @@
+cores = ['azul', 'amarelo', 'vermelho', 'branco']
+
+while True:
+    cor = input("Digite um nome de uma cor ou então,"
+                  " 0 para sair do prgrama:")
+
+    if(cor=="0"):
+        break
+    elif cor in cores:
+        print("Essa cor está contida!")
+    else:
+        print("Essa cor NÃO está contida!")
