@@ -1,0 +1,7 @@
+print("Antes de entrar no laço")
+for item in range(100):
+    print(item)
+    if(item==16):
+        print("A condição estabelecida retornou True")
+        break
+print("Depois de ter entrado no laço")
