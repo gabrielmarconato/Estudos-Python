@@ -1,0 +1,9 @@
+lista = ['aaa', 'bbb', 'ccc', 'ddd', 'eee', 'fff', 'ggg']
+print(len(lista))
+print(lista[len(lista)-1])
+""" ^^^ esse código mostra na tela o último elemento da
+        lista """
+lista.append('aaa') # adicionar um elemente ao fim da lista
+print(lista)
+print(lista.count('aaa'))  # indica quantas vezes o 'aaa' está colocado na lista.
+print(lista.index('ddd'))  # indica o índice do 'ddd'
