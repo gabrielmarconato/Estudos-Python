@@ -1,0 +1,12 @@
+def X ():
+    return 10
+
+print(X() + 10)
+print(X() ** 2)
+
+def Y ():
+    return 2, 4
+
+a, b = Y()
+print(a)
+print(b)
