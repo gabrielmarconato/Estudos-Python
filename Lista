@@ -1,0 +1,10 @@
+lista = [1, 2, 'a', 5, 'b', 15]
+
+print(lista[5])
+print()
+print(lista[2])
+
+lista2 = list((4, 5, 8))
+
+print()
+print(lista2)
