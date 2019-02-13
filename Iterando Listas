@@ -1,0 +1,22 @@
+"""lista = [100, 200, 300, 400]
+lista_indice = [0, 1, 2, 3]
+for item in lista_indice:
+   lista[item] += 1000
+print(lista)"""
+
+"""lista = [100, 200, 300, 400]
+lista_indice = range(4)
+for item in lista_indice:
+   lista[item] += 1000
+print(lista)"""
+
+"""lista = [100, 200, 300, 400]
+for item in range(len(lista)):
+   lista[item] += 1000
+print(lista)"""
+
+lista = [100,200,300,400,500,600,700,800]
+for idx, item in enumerate(lista):
+   lista[idx] += 1000
+print(lista)
+
