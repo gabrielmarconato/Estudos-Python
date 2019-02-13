@@ -1,0 +1,14 @@
+print()
+print("inicio")
+i = 0
+while(i<10):
+    i += 1
+    if(i%2 != 0):
+          continue
+    print(i)
+else:
+ print("fim")
+
+""" Na linha 6 o que ocorre é que o programa 
+verifica se o número é par ou ímpar, se ele 
+for ímpar ele recebe a função continue e é pulado na lista """
