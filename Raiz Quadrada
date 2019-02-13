@@ -1,0 +1,7 @@
+num = float(input("digite um número: "))
+
+rad = float(num**2)
+raiz = float(num**0.5)
+
+print("o número:", num,"é raiz quadrada do número ", rad)
+print("e sua raiz quadrada é:", raiz)
