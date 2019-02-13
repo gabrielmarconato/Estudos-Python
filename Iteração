@@ -1,0 +1,7 @@
+""" Uma iteração nada mais é do que um Loop que continua
+acontecendo de acordo com uma condição dada.
+"""
+x = 0
+while(x<=10):
+    print(x)
+    x += 1
