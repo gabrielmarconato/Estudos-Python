@@ -1,0 +1,18 @@
+a = 7
+
+if (a==10):
+    print("o valor de a é igual a 10")
+elif (a==9):
+    print("o valor de a é igual a 9")
+elif (a==8):
+    print("o valor de a é igual a 8")
+else:
+    print("o valor de a não é 10 nem 9 nem 8")
+
+
+""" if = "se" ou "caso" "se tal coisa acontecer faça isso.
+
+else = "se não" ou "caso não" "caso tal coisa não ocorra faça aquilo"
+
+elif = um else que cria um novo if.
+"""
