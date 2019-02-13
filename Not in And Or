@@ -1,0 +1,23 @@
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+if 8 and 9 in x:
+    print("os números 8 e 9 estão contidos")
+else:
+    print("os números 8 e 9 não estão contidos")
+
+print()
+y = [100, 200, 300, 400, 500]
+
+if 150 and 600 not in y:
+    print("os números 150 e 600 não estão contidos")
+else:
+    print("o 150 ou o 600 ou ambos estão contidos ")
+
+print()
+if ((1 and 6) or(5 and 6) in range(1,7)):
+    print("nesse range há: ou os números 1 e 6"
+          " ou os números 5 e 6")
+else:
+    print("ou os números 1 e 6 não estão contidos "
+          "juntos ou os números 5 e 6 não estão "
+          "contidos juntos")
