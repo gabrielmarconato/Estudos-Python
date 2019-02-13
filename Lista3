@@ -1,0 +1,10 @@
+lista = [1, 2, 3, 4, 5]
+print("A lista era:", lista)
+lista = lista + [6]
+print("adicionando-se o número 6 ela fica:", lista)
+lista = lista + [7, 8, 9]
+print("Adicionando os números 7,8 e 9:", lista)
+lista = [0] + lista
+print("Adicionando o 0 antes:", lista)
+del (lista[-1]); del (lista[-1]); del (lista[-1])
+print("retirando os últimos 3 números a lista ficaria assim:", lista)
