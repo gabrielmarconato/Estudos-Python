@@ -1,0 +1,19 @@
+s = "Lista de Caracteres"
+print(len(s))
+print()
+lista = s.split(" ") # transforma string em uma lista
+print(lista)
+print()
+s = lista[2]
+print(s)
+print(lista[0])
+
+# --------------------------------------------------
+print()
+print("---------------------------------")
+x = "Lista de Caracteres"
+x.replace("lista", "")  # ... .replace(x, y) x = o que é substituído por y
+print(x)
+print()
+print(chr(100))  # o código de valor 100 é a letra d.
+print(ord("d"))  # a letra d tem
