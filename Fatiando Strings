@@ -1,0 +1,6 @@
+s = "kkk olá meu jovem gafanhoto."
+print(s[0])  # primeira letra
+print(s[0:18:1])  # até o 18
+print(s[18:])  # do 18 até o final
+print(s[::-1])  # escrevendo ao contrário
+print(s[::2])  # pulando de 2 em 2
