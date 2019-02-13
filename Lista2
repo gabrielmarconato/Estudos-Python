@@ -1,0 +1,9 @@
+lista = [['a', 'b', 'c'], [5, 8, 2], []]
+print(lista)
+print(lista[0])
+print(lista[1])
+print(lista[2])
+print()
+print(lista[1], [2])
+print()
+print("o número de elementos da lista é:", len(lista))
