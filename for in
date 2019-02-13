@@ -1,0 +1,7 @@
+for c in "selenceo":
+    print(c)
+
+print("seu")
+
+for x in "imundo":
+    print(x)
