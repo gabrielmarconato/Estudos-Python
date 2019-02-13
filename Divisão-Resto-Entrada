@@ -1,0 +1,8 @@
+num1 = int(input("digite uma número inteiro: "))
+num2 = int(input("digite outro número inteiro: "))
+
+divisão = float(num1 / num2)
+resto = float(num1 % num2)
+
+print(num1,"dividido por", num2, "é igual a: ", divisão)
+print("o resto da divisão entre: ", num1,"e", num2, "é", resto)
