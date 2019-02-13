@@ -1,0 +1,19 @@
+num_int = 3
+num_dec = 6.5
+val_str = "kk eae men"
+
+print("o valor é:",num_int)
+print("o valor é: %i" %num_int)
+print("o valor é: "+ str(num_int))
+
+
+
+print("Concatenando decimal:", num_dec)
+print("Concatenando decimal: %.4f" %num_dec)
+print("Concatenando decimal: " + str(num_dec))
+
+
+
+print("Concatenando strings:", val_str)
+print("Concatenando strings: %s" %val_str)
+print("Concatenando strings: " + val_str)
