@@ -1,0 +1,9 @@
+x = int(input("     digite um número:"))
+y = int(input("  digite outro número:"))
+z = int(input("digite mais um número:"))
+a = int(input("       digite mais um:"))
+b = int(input("     e mais um último:"))
+lista = []
+print()
+print("montamos uma lista com seus números, ela ficou assim:")
+print(lista + [x, y, z, a, b])
