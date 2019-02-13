@@ -1,0 +1,5 @@
+def login(usuario="root", senha="123"):
+    print("usuário: ", usuario)
+    print("Senha: ", senha)
+
+login("cláudio", "123456789")
