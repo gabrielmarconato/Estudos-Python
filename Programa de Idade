@@ -1,0 +1,11 @@
+idade = int(input("Informe sua idade:"))
+if(idade<=0):
+    print("sua idade não pode ser menor ou igual a zero!")
+
+elif(idade<18):
+    print("você é menor e idade, não pode entrar nesse site ainda!")
+
+elif (idade>150):
+    print("você não pode ter mais de 150 anos de idade!")
+else:
+    print("seja bem-vindo!")
