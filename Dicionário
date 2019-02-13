@@ -1,0 +1,26 @@
+d1 = {}
+d1['A'] = 10
+d1['B'] = 20
+d1['C'] = 30
+print(d1)
+
+print()
+
+for x,y in enumerate(d1.values()):
+    print(x, y)
+
+print()
+
+d2 = {1.1: "teste1", 2.2: "teste2", 3.3: "teste3"}
+print(d2)
+
+for g, h in enumerate(d2.values()):
+    print(g, h)
+
+print()
+print(d1.values())
+print(d1.keys())
+print(d2.get(1.1))
+print(1.1 in d1)
+print(1.1 in d2)
+
