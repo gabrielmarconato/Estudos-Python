@@ -1,0 +1,23 @@
+""" x = x+1 é a mesma coisa que: x += 1
+    x = x-1 é a mesma coisa que: x -= 1
+    x = x*1 é a mesma coisa que: x *= 1
+    x = x/1 é a mesma coisa que: x /= 1
+    x = x%1 é a mesma coisa que: x %= 1
+"""
+x = 9
+y = 3
+
+x += y
+print(x)  # x = x+y (mesma coisa)
+
+x -= y
+print(x)  # x = x-y (mesma coisa)
+
+x *= y
+print(x)  # x = x*y (mesma coisa)
+
+x /= y
+print(x)  # x = x/y (mesma coisa)
+
+x %= y
+print(x)  # x = x%y (mesma coisa)
